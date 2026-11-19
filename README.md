@@ -35,22 +35,13 @@ Lentelė `Priima` realizuoja Many-to-Many ryšį tarp vizitų ir gydytojų.
 
 ## Pritaikytos SQL funkcijos ir principai
 
-- Lentelių kūrimas (`CREATE TABLE`) ir duomenų įterpimas (`INSERT INTO`), atnaujinimas (`UPDATE`)
-- Pirminiai ir išoriniai raktai (`PRIMARY KEY`, `FOREIGN KEY`)
-- Duomenų apribojimai (`NOT NULL`, `CHECK`) ir unikalus indeksas (`UNIQUE INDEX`)
-- Numatytosios reikšmės (`DEFAULT`)
-- Automatinis ID generavimas (`IDENTITY`)
-- Duomenų trynimo taisyklės (`ON DELETE CASCADE`)
-- Indeksų kūrimas (`CREATE INDEX`)
-- Virtualios lentelės (`CREATE VIEW`)
-- Lentelių jungimas (`JOIN`, `LEFT JOIN`)
-- Grupavimas ir filtravimas (`GROUP BY`, `HAVING`)
-- Agregavimo funkcijos (`COUNT`, `AVG`)
-- Bendrosios lentelių išraiškos (`CTE`)
-- Įdėtinės užklausos (subqueries)
-- Langų funkcijos (`ROW_NUMBER`, `DENSE_RANK`)
-- Datos funkcijos (`DATE_TRUNC`, `AGE`)
-- Duomenų kokybės tikrinimas
+- Apribojimai: PRIMARY KEY, FOREIGN KEY, CHECK, NOT NULL, DEFAULT
+- Automatiškai generuojami ID (GENERATED ALWAYS AS IDENTITY)
+- ON DELETE CASCADE ir ON UPDATE RESTRICT ryšiuose
+- Indeksai (UNIQUE pagal asmens kodą, paprastas pagal vardą)
+- Virtualios lentelės (VIEW)
+- OIN, LEFT JOIN, GROUP BY, HAVING, COUNT, DATE_TRUNC, AGE INSERT ir UPDATE
+
 
 ## Duomenų analizės pavyzdžiai
 
