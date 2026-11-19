@@ -1,6 +1,6 @@
 # Pacientų valdymo sistema – PostgreSQL
 
-# Apie projektą
+## Apie projektą
 
 Šis projektas yra reliacinė duomenų bazė, skirta pacientų informacijai, jų kontaktiniams duomenims, medicininiams vizitams ir gydytojų informacijai saugoti bei valdyti.
 
